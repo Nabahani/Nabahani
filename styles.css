@@ -1,0 +1,140 @@
+
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 70%;
+}
+
+#navbar {
+  text-align: right;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(230, 25, 25);
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar a {
+  padding: 3px;
+  color: rgb(222, 222, 222);
+  text-decoration: none;
+  margin: 5px;
+}
+
+#welcome-section {
+  background-color: rgb(45, 45, 45);
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome-section h1 {
+  color: white;
+  font-size: 22px;
+}
+
+#welcome-section h1 span {
+  color: rgb(230, 25, 25);
+  font-size: 14px;
+}   
+
+#projects {
+  background-color: rgb(59, 86, 125);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.project-tile {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.images a {
+  text-decoration: none;
+}
+
+.images a img {
+  width: 45%;
+  height: 140px;
+  border-radius: 3px;
+  margin: 8px;
+}
+
+#link {
+  display: inline-block;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+  text-decoration: none;
+  background-color: rgb(45, 45, 45);
+}
+
+#contact {
+  height: 80vh;
+  color: white;
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#contact h2 {
+  font-size: 20px;
+}
+
+#contact p {
+  font-size: 8px;
+  padding: 2px;
+}
+
+#contact nav {
+  margin: 20px auto 0 auto;
+}
+
+#contact nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(45, 45, 45);
+  border-top: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+}
+
+@media (max-width: 732px) {
+  .images a img {
+    width: 45%;
+    height: 140px;
+    border-radius: 3px;
+    margin: 8px;
+  }
+}
+
+
+
+
+    
+    
